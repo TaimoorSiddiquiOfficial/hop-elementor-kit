@@ -1,0 +1,432 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1" display-as-translated="1">hop_elementor_kit</custom-type>
+		<custom-type translate="1" display-as-translated="1">hop_ekits_menu</custom-type>
+		<custom-type translate="1" display-as-translated="1">hop_ekits_slide</custom-type>
+ 	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">hop_ekits_slider</taxonomy>
+		<taxonomy translate="0">hop_elementor_type</taxonomy>
+	</taxonomies>
+	<elementor-widgets>
+		<widget name="hop-ekits-header-info">
+			<conditions>
+				<condition key="widgetType">hop-ekits-header-info</condition>
+			</conditions>
+			<fields-in-item items_of="group">
+				<field type="Header Info: Text" editor_type="LINE">text</field>
+				<field type="Header Info: Link" editor_type="LINK" key_of="link">url</field>
+			</fields-in-item>
+		</widget>
+
+		<widget name="hop-ekits-search-form">
+			<conditions>
+				<condition key="widgetType">hop-ekits-search-form</condition>
+			</conditions>
+			<fields>
+				<field type="Placeholder Text" editor_type="LINE">placeholder_text</field>
+				<field type="Button Search Text" editor_type="LINE">text_button_search</field>
+			</fields>
+		</widget>
+
+		<widget name="hop-ekits-list-blog">
+			<conditions>
+				<condition key="widgetType">hop-ekits-list-blog</condition>
+			</conditions>
+			<fields-in-item items_of="repeater">
+				<field type="Post Data: Read More Text" editor_type="LINE">read_more_text</field>
+			</fields-in-item>
+		</widget>
+
+		<widget name="hop-ekits-list-course">
+			<conditions>
+				<condition key="widgetType">hop-ekits-list-course</condition>
+			</conditions>
+			<fields>
+				<field type="Read More Text" editor_type="LINE">read_more_text_inner_image</field>
+				<field type="Post Data: Read More Text" editor_type="LINE" key_of="repeater">read_more_text</field>
+			</fields>
+		</widget>
+
+		<widget name="hop-ekits-site-logo">
+			<conditions>
+				<condition key="widgetType">hop-ekits-site-logo</condition>
+			</conditions>
+			<fields>
+				<field type="Custom Link" editor_type="LINK" key_of="custom_link">url</field>
+			</fields>
+		</widget>
+
+		<widget name="hop-ekits-social">
+			<conditions>
+				<condition key="widgetType">hop-ekits-social</condition>
+			</conditions>
+			<fields>
+				<field type="Header Info: Link" editor_type="LINK" key_of="custom_link">url</field>
+			</fields>
+			<fields-in-item items_of="social_icon_add_icons">
+				<field type="Add Social Media: Label" editor_type="LINE">social_icon_label</field>
+				<field type="Add Social Media: Link" editor_type="LINK" key_of="social_icon_link">url</field>
+			</fields-in-item>
+		</widget>
+
+		<widget name="hop-ekits-social-share">
+			<conditions>
+				<condition key="widgetType">hop-ekits-social-share</condition>
+			</conditions>
+			<fields>
+				<field type="Social Share: Label" editor_type="LINE">share_label</field>
+			</fields>
+		</widget>
+
+		<widget name="hop-ekits-team">
+			<conditions>
+				<condition key="widgetType">hop-ekits-team</condition>
+			</conditions>
+			<fields>
+				<field type="Member Link" editor_type="LINK" key_of="link_member">url</field>
+			</fields>
+			<fields-in-item items_of="repeater">
+				<field type="Teams: Member Name" editor_type="LINE">member_name</field>
+				<field type="Teams: Position" editor_type="LINE">member_position</field>
+				<field type="Teams: Description" editor_type="AREA">member_description</field>
+				<field type="Teams: Facebook Link" editor_type="LINK" key_of="facebook_link">url</field>
+				<field type="Teams: Twitter Link" editor_type="LINK" key_of="twitter_link">url</field>
+				<field type="Teams: Youtube Link" editor_type="LINK" key_of="youtube_link">url</field>
+				<field type="Teams: Linked In Link" editor_type="LINK" key_of="linked_in_link">url</field>
+			</fields-in-item>
+		</widget>
+
+		<widget name="hop-ekits-testimonial">
+			<conditions>
+				<condition key="widgetType">hop-ekits-testimonial</condition>
+			</conditions>
+			<fields-in-item items_of="data">
+				<field type="Testimonial: Client Name" editor_type="LINE">client_name</field>
+				<field type="Testimonial: Position" editor_type="LINE">client_position</field>
+				<field type="Testimonial: Testimonial Review" editor_type="AREA">client_content</field>
+				<field type="Testimonial: Link" editor_type="LINK" key_of="link">url</field>
+			</fields-in-item>
+		</widget>
+
+		<widget name="hop-ekits-heading">
+			<conditions>
+				<condition key="widgetType">hop-ekits-heading</condition>
+			</conditions>
+			<fields>
+				<field type="Heading: Title" editor_type="LINE">title</field>
+				<field type="Heading: Sub Title" editor_type="LINE">sub_heading</field>
+				<field type="Heading: Description" editor_type="VISUAL">desc</field>
+			</fields>
+		</widget>
+
+		<widget name="hop-ekits-nav-menu">
+			<conditions>
+				<condition key="widgetType">hop-ekits-nav-menu</condition>
+			</conditions>
+			<fields-in-item items_of="custom_menu_html">
+				<field type="Menu: Text" editor_type="LINE">item_text</field>
+				<field type="Menu: Link" editor_type="LINK" key_of="link">item_link</field>
+			</fields-in-item>
+		</widget>
+
+		<widget name="hop-ekits-image-accordion">
+			<conditions>
+				<condition key="widgetType">hop-ekits-image-accordion</condition>
+			</conditions>
+			<fields-in-item items_of="img_accordions">
+				<field type="Image Accordion: Text" editor_type="LINE">tittle</field>
+				<field type="Image Accordion: Content" editor_type="AREA">desc</field>
+				<field type="Image Accordion: Link" editor_type="LINK" key_of="link">link</field>
+			</fields-in-item>
+		</widget>
+
+		<widget name="hop-ekits-button">
+			<conditions>
+				<condition key="widgetType">hop-ekits-button</condition>
+			</conditions>
+			<fields>
+                <field type="Button: Text" editor_type="LINE">title</field>
+                <field type="Button: URL" editor_type="LINK" key_of="link">link_url</field>
+             </fields>
+		</widget>
+
+		<widget name="hop-ekits-tab">
+			<conditions>
+				<condition key="widgetType">hop-ekits-tab</condition>
+			</conditions>
+			<fields-in-item items_of="tabs">
+				<field type="Image Accordion: Tab Title" editor_type="LINE">tab_title</field>
+				<field type="Image Accordion: Tab Content" editor_type="AREA">tab_content</field>
+			</fields-in-item>
+		</widget>
+
+		<widget name="hop-ekits-accordion">
+			<conditions>
+				<condition key="widgetType">hop-ekits-accordion</condition>
+			</conditions>
+			<fields-in-item items_of="tabs">
+				<field type="Accordion: Title" editor_type="LINE">acc_title</field>
+				<field type="Accordion: Content" editor_type="AREA">acc_content</field>
+			</fields-in-item>
+		</widget>
+
+		<widget name="hop-ekits-icon-box">
+			<conditions>
+				<condition key="widgetType">hop-ekits-icon-box</condition>
+			</conditions>
+			<fields>
+				<field type="Icon Box: URL" editor_type="LINK" key_of="link">link</field>
+				<field type="Icon Box: Read More Text" editor_type="LINE">read_text</field>
+			</fields>
+		</widget>
+
+		<widget name="hop-ekits-login-icon">
+			<conditions>
+				<condition key="widgetType">hop-ekits-login-icon</condition>
+			</conditions>
+			<fields>
+				<field type="Login Icon: Register Label" editor_type="LINE">text_register</field>
+				<field type="Login Icon: Register Url" editor_type="LINE">url_register</field>
+				<field type="Login Icon: Login Label" editor_type="LINE">text_login</field>
+				<field type="Login Icon: Login Url" editor_type="LINE">login_url</field>
+				<field type="Login Icon: Logout Label" editor_type="LINE">text_logout</field>
+				<field type="Login Icon: Profile Label" editor_type="LINE">text_profile</field>
+				<field type="Login Icon: Profile Url" editor_type="LINE">profile_url</field>
+			</fields>
+		</widget>
+
+		<widget name="hop-login-form">
+			<conditions>
+				<condition key="widgetType">hop-login-form</condition>
+			</conditions>
+			<fields>
+				<field type="Login Form Title" editor_type="LINE">title_from</field>
+				<field type="Login Form: Redirect After Login" editor_type="LINK" key_of="link">redirect_url</field>
+				<field type="Login Form: Redirect After Logout" editor_type="LINK" key_of="link">redirect_logout_url</field>
+				<field type="Login Form: Username Placeholder" editor_type="LINE">user_placeholder</field>
+				<field type="Login Form: Password Placeholder" editor_type="LINE">password_placeholder</field>
+				<field type="Login Form: Text Button" editor_type="LINE">text_login</field>
+				<field type="Register Form Title" editor_type="LINE">title_from_rg</field>
+				<field type="Login Form: Redirect After Register" editor_type="LINE">redirect_register_url</field>
+				<field type="Login Form: Register Username Placeholder" editor_type="LINE">rg_user_placeholder</field>
+				<field type="Login Form: Register Email Placeholder" editor_type="LINE">rg_email_placeholder</field>
+				<field type="Login Form: Text Button" editor_type="LINE">text_login</field>
+			</fields>
+		</widget>
+
+		<widget name="hop-video">
+			<conditions>
+				<condition key="widgetType">hop-video</condition>
+			</conditions>
+			<fields>
+                <field type="Video Label" editor_type="LINE">text_video</field>
+             </fields>
+		</widget>
+
+		<widget name="hop-ekits-countdown">
+			<conditions>
+				<condition key="widgetType">hop-ekits-countdown</condition>
+			</conditions>
+			<fields>
+                <field type="Countdown: Days" editor_type="LINE">label_days</field>
+				<field type="Countdown: Hours" editor_type="LINE">label_hours</field>
+				<field type="Countdown: Minutes" editor_type="LINE">label_minutes</field>
+				<field type="Countdown: Seconds" editor_type="LINE">label_seconds</field>
+             </fields>
+		</widget>
+
+		<widget name="hop-ekits-post-navigation">
+			<conditions>
+				<condition key="widgetType">hop-ekits-post-navigation</condition>
+			</conditions>
+			<fields>
+                <field type="Previous Label" editor_type="LINE">prev_label</field>
+				<field type="Next Label" editor_type="LINE">next_label</field>
+             </fields>
+		</widget>
+
+		<widget name="hop-ekits-post-info">
+			<conditions>
+				<condition key="widgetType">hop-ekits-post-info</condition>
+			</conditions>
+			<fields-in-item items_of="icon_list">
+                <field type="Post Info: Taxonomy Before" editor_type="LINE">taxonomy_before</field>
+				<field type="Post Info: Taxonomy After" editor_type="LINE">taxonomy_after</field>
+				<field type="Post Info: Text" editor_type="LINE">custom_text</field>
+            </fields-in-item>
+		</widget>
+
+		<widget name="hop-ekits-reading-time-post">
+			<conditions>
+				<condition key="widgetType">hop-ekits-reading-time-post</condition>
+			</conditions>
+			<fields>
+                <field type="Results Text" editor_type="LINE">results_text</field>
+             </fields>
+		</widget>
+
+		<widget name="hop-loop-item-read-more">
+			<conditions>
+				<condition key="widgetType">hop-loop-item-read-more</condition>
+			</conditions>
+			<fields>
+                <field type="Read More" editor_type="LINE">text</field>
+             </fields>
+		</widget>
+
+		<widget name="hop-loop-item-info">
+			<conditions>
+				<condition key="widgetType">hop-loop-item-read-more</condition>
+			</conditions>
+			<fields-in-item items_of="icon_list">
+                <field type="Text Before Author" editor_type="LINE">text_before_author</field>
+				<field type="No Comments" editor_type="LINE">text_no_comments</field>
+				<field type="One Comment" editor_type="LINE">text_one_comments</field>
+				<field type="Many Comment" editor_type="LINE">text_many_comments</field>
+				<field type="Custom Text" editor_type="LINE">Text</field>
+				<field type="Custom URL" editor_type="LINK" key_of="link">custom_url</field>
+            </fields-in-item>
+		</widget>
+
+		<widget name="hop-ekits-course-rating">
+			<conditions>
+				<condition key="widgetType">hop-ekits-course-rating</condition>
+			</conditions>
+			<fields>
+                <field type="Course Rating Title" editor_type="LINE">title</field>
+             </fields>
+		</widget>
+
+		<widget name="hop-ekits-course-instructor">
+			<conditions>
+				<condition key="widgetType">hop-ekits-course-instructor</condition>
+			</conditions>
+			<fields>
+                <field type="Course Instructor Title" editor_type="LINE">title</field>
+             </fields>
+		</widget>
+
+		<widget name="hop-ekits-course-meta">
+			<conditions>
+				<condition key="widgetType">hop-ekits-course-meta</condition>
+			</conditions>
+			<fields-in-item items_of="item_list">
+                <field type="Course Meta: Lifetime" editor_type="LINE">lifetime</field>
+				<field type="Course Meta: Singular Lesson" editor_type="LINE">singular_lesson</field>
+				<field type="Course Meta: Plural Lesson" editor_type="LINE">plural_lesson</field>
+				<field type="Course Meta: Singular Quiz" editor_type="LINE">singular_quiz</field>
+				<field type="Course Meta: Plural Quiz" editor_type="LINE">plural_quiz</field>
+				<field type="Course Meta: Singular Student" editor_type="LINE">singular_student</field>
+				<field type="Course Meta: Plural Student" editor_type="LINE">plural_student</field>
+				<field type="Course Meta: Custom Label" editor_type="LINE">custom_text</field>
+				<field type="Course Meta: Custom URL" editor_type="LINK" key_of="link">custom_url</field>
+            </fields-in-item>
+		</widget>
+
+		<widget name="hop-ekits-course-category">
+			<conditions>
+				<condition key="widgetType">hop-ekits-course-category</condition>
+			</conditions>
+			<fields>
+                <field type="Course Category Singular" editor_type="LINE">category_singular</field>
+				<field type="Course Category Plural" editor_type="LINE">category_plural</field>
+            </fields>
+		</widget>
+
+		<widget name="hop-ekits-course-tags">
+			<conditions>
+				<condition key="widgetType">hop-ekits-course-tags</condition>
+			</conditions>
+			<fields>
+                <field type="Course Tags Singular" editor_type="LINE">singular</field>
+				<field type="Course Tags Plural" editor_type="LINE">plural</field>
+            </fields>
+		</widget>
+
+		<widget name="hop-ekits-course-user-time">
+			<conditions>
+				<condition key="widgetType">hop-ekits-course-user-time</condition>
+			</conditions>
+			<fields>
+                <field type="Start label" editor_type="LINE">start_label</field>
+				<field type="Finish label" editor_type="LINE">finish_label</field>
+				<field type="Explanation label" editor_type="LINE">explanation_label</field>
+				<field type="Duration label" editor_type="LINE">duaration_label</field>
+				<field type="Lifetime label" editor_type="LINE">duaration_value</field>
+            </fields>
+		</widget>
+
+		<widget name="hop-ekits-course-user-progress">
+			<conditions>
+				<condition key="widgetType">hop-ekits-course-user-progress</condition>
+			</conditions>
+			<fields>
+                <field type="Lesson label" editor_type="LINE">lesson_label</field>
+				<field type="Quiz label" editor_type="LINE">quiz_label</field>
+				<field type="Assignment label" editor_type="LINE">assignment_label</field>
+            </fields>
+		</widget>
+
+		<widget name="hop-ekits-course-tabs">
+			<conditions>
+				<condition key="widgetType">hop-ekits-course-tabs</condition>
+			</conditions>
+			<fields-in-item items_of="hop_tab_repeater">
+                <field type="Tab Repeater Text" editor_type="LINE">text</field>
+            </fields-in-item>
+		</widget>
+
+		<widget name="hop-ekits-course-extra">
+			<conditions>
+				<condition key="widgetType">hop-ekits-course-extra</condition>
+			</conditions>
+			<fields-in-item items_of="hop_tab_repeater">
+                <field type="Tab Title" editor_type="LINE">tab_title</field>
+				<field type="Tab Content" editor_type="LINE">tab_content</field>
+            </fields-in-item>
+		</widget>
+
+		<widget name="hop-ekits-course-buttons">
+			<conditions>
+				<condition key="widgetType">hop-ekits-course-buttons</condition>
+			</conditions>
+			<fields>
+                <field type="Start Button Text" editor_type="LINE">start_now_btn_text</field>
+				<field type="Continue Button Text" editor_type="LINE">continue_btn_text</field>
+				<field type="Purchase Button Text" editor_type="LINE">purchase_btn_text</field>
+				<field type="Finish Button Text" editor_type="LINE">finish_btn_text</field>
+				<field type="Retake Button Text" editor_type="LINE">retake_btn_text</field>
+				<field type="External Link Button Text" editor_type="LINE">external_btn_text</field>
+            </fields>
+		</widget>
+
+		<widget name="hop-ekits-course-offer-end">
+			<conditions>
+				<condition key="widgetType">hop-ekits-course-offer-end</condition>
+			</conditions>
+			<fields>
+                <field type="Course Offer End: Text" editor_type="LINE">text</field>
+				<field type="Course Offer End: Days" editor_type="LINE">label_days</field>
+				<field type="Course Offer End: Hours" editor_type="LINE">label_hours</field>
+				<field type="Course Offer End: Minutes" editor_type="LINE">label_minutes</field>
+				<field type="Course Offer End: Seconds" editor_type="LINE">label_seconds</field>
+            </fields>
+		</widget>
+
+		<widget name="hop-ekits-product-meta">
+			<conditions>
+				<condition key="widgetType">hop-ekits-product-meta</condition>
+			</conditions>
+			<fields-in-item items_of="item_list">
+                <field type="Product Meta: Singular Category" editor_type="LINE">category_singular</field>
+				<field type="Product Meta: Plural Category" editor_type="LINE">category_plural</field>
+				<field type="Product Meta: Singular Tags" editor_type="LINE">tags_singular</field>
+				<field type="Product Meta: Plural Tags" editor_type="LINE">tags_plural</field>
+				<field type="Product Meta: SKU Label" editor_type="LINE">sku_caption</field>
+				<field type="Product Meta: SKU Missing Text" editor_type="LINE">sku_missing_caption</field>
+            </fields-in-item>
+		</widget>
+
+	</elementor-widgets>
+</wpml-config>

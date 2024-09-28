@@ -1,0 +1,129 @@
+.hop-ekit-dashboard {
+    margin: 40px; /* Increased margin for more space */
+    background-color: #151515; /* Darker background for a sleeker feel */
+    color: #f5f5f5; /* Softer white for text to reduce strain */
+    font-family: 'Poppins', 'Segoe UI', Tahoma, sans-serif; /* Trendy, clean font */
+    font-size: 16px; /* Increased base font size for readability */
+    width: 90%;
+}
+
+.hop-ekit-dashboard__banner img {
+    margin-bottom: 50px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    border-radius: 12px; /* Slightly larger border-radius for modern look */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow for depth */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.hop-ekit-dashboard__banner img:hover {
+    transform: scale(1.03); /* Gentle zoom on hover for premium feel */
+}
+
+.hop-ekit-dashboard__inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    column-gap: 50px; /* Larger gap for breathing space */
+}
+
+.hop-ekit-dashboard__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px; /* Consistent spacing with wider gaps */
+}
+
+.hop-ekit-dashboard__content__inner {
+    background-color: #000000; /* Dark background, but softer than black */
+    border-radius: 12px;
+    padding: 40px;
+    display: grid;
+    row-gap: 30px; /* More space between elements */
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2); /* Soft shadow for premium depth */
+    border: 1px solid #444444; /* Subtle border */
+    transition: box-shadow 0.3s ease;
+}
+
+.hop-ekit-dashboard__content__inner:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Elevated shadow on hover */
+}
+
+.hop-ekit-dashboard__content__inner>* {
+    margin: 0;
+}
+
+.hop-ekit-dashboard__content__inner__button>a {
+    background: linear-gradient(90deg, #ff8800, #ffaa00); /* More vibrant gradient */
+    border: none;
+    color: #fff;
+    display: inline-block;
+    padding: 14px 28px; /* Larger padding for button emphasis */
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600; /* Slightly bolder for stronger contrast */
+    transition: background 0.4s ease, transform 0.3s ease; /* Smoother transitions */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Larger shadow for prominence */
+}
+
+.hop-ekit-dashboard__content__inner__button>a:hover {
+    background: linear-gradient(90deg, #ffaa00, #ff8800); /* Reversed gradient */
+    transform: translateY(-5px); /* More lift for a premium touch */
+}
+
+.hop-ekit-dashboard__content__inner h1 {
+    font-size: 26px; /* Increased font size for headings */
+    font-weight: 700;
+    color: #ff8800; /* Vibrant orange accent */
+    letter-spacing: 0.7px; /* More spacing for luxurious feel */
+}
+
+.hop-ekit-dashboard__changelog {
+    font-size: 14px; /* Slightly larger for premium readability */
+    color: #f5f5f5; /* Softer white for comfort */
+    line-height: 1.8; /* Increased line height for legibility */
+}
+
+.hop-ekit-dashboard__changelog h1 {
+    font-size: 26px; /* Matched with the main heading */
+    font-weight: 700;
+    margin-bottom: 25px; /* More balanced margin */
+    color: #ff8800; /* Vibrant orange accent */
+}
+
+.hop-ekit-dashboard__changelog ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.hop-ekit-dashboard__changelog ul li::before {
+    content: '◦ '; /* Custom premium bullet with a sleek look */
+    color: #ffaa00; /* Subtle orange for bullet points */
+    font-weight: bold;
+    font-size: 18px; /* Larger bullet size for prominence */
+}
+
+.hop-ekit-dashboard__changelog__inner {
+    max-height: 450px;
+    overflow-y: auto;
+    background-color: #000000; /* Slightly softer dark background */
+    color: #f38a00;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #444444; /* Refined border */
+}
+
+.hop-ekit-dashboard__changelog__inner::-webkit-scrollbar {
+    width: 10px;
+}
+
+.hop-ekit-dashboard__changelog__inner::-webkit-scrollbar-thumb {
+    background: #ff8800; /* Premium gradient color for scrollbar */
+    border-radius: 12px;
+}
+
+.hop-ekit-dashboard__changelog__inner::-webkit-scrollbar-track {
+    background: #04040498; /* Dark track for contrast */
+}
+
+
+

@@ -1,0 +1,206 @@
+#hop-elementor-header {
+    background: #1e1e1e; /* Dark background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-left: -20px;
+    position: relative;
+    width: auto;
+}
+
+#hop-elementor-header~#wpbody #wpbody-content {
+    margin-top: 0 !important;
+}
+
+#hop-elementor-header~#wpbody #wpbody-content .wrap {
+    clear: both;
+    padding-top: 10px;
+}
+
+#hop-elementor-header~#e-admin-top-bar-root {
+    display: none;
+}
+
+.hop-ekit-shortcode-column input {
+    min-width: 230px;
+}
+
+#hop-elementor-tabs-wrapper {
+    margin-bottom: 2em;
+    margin-top: 20px;
+}
+
+.hop-ekit {
+    height: 60px;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #000000; /* Darker header for enterprise look */
+    color: #f1f1f1; /* Light text color */
+}
+
+.hop-ekit, .hop-ekit__inner {
+    align-items: center;
+    display: flex;
+}
+
+.hop-ekit__inner {
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.hop-ekit__heading {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffcc00; /* Golden heading for accent */
+}
+
+.hop-ekit__contact {
+    align-items: center;
+    color: #f1f1f1;
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.hop-ekit__contact svg {
+    height: 20px;
+    width: 20px;
+    color: #ffcc00; /* Golden contact icon */
+}
+
+.hop-ekit__tablenav-active {
+    line-height: 30px;
+}
+
+.hop-ekit__tablenav-active>a {
+    text-decoration: none;
+    color: #ffcc00; /* Golden active link */
+}
+
+.hop-ekit__modal .components-notice {
+    margin: 15px 0 0;
+}
+
+@media (min-width: 600px) {
+    .hop-ekit__modal {
+        width: 800px;
+        background-color: #000000; /* Dark modal background */
+    }
+}
+
+.hop-ekit__table__badge {
+    background: #ffcc00; /* Golden badge */
+    border-radius: 3px;
+    color: #1e1e1e; /* Dark text inside badge */
+    display: inline-block;
+    font-size: 11px;
+    line-height: 1;
+    margin-left: 4px;
+    padding: 4px 5px;
+}
+
+.woocommerce-select-control {
+    margin: 0 0 8px;
+    position: relative;
+}
+
+.woocommerce-select-control__control-input {
+    background-color: #000000 !important; /* Dark input background */
+    border: 1px solid #757575 !important;
+    border-radius: 2px !important;
+    color: #f1f1f1 !important;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 13px !important;
+    line-height: normal !important;
+    padding: 6px 8px !important;
+    width: 100% !important;
+}
+
+.woocommerce-select-control__listbox {
+    border: 1px solid #969696;
+    background-color: #000000; /* Dark dropdown */
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.woocommerce-select-control__option {
+    background-color: #333333; /* Dark option background */
+    color: #f1f1f1;
+    padding: 6px 12px;
+}
+
+.woocommerce-select-control__option.is-selected {
+    background-color: #ffcc00; /* Golden selection */
+    color: #1e1e1e;
+}
+
+.hop-ekit-meta-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hop-ekit-meta-box {
+    align-items: center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 160px 1fr;
+}
+
+.hop-ekit-meta-box__title {
+    font-weight: 500;
+    color: #ffcc00; /* Golden title color */
+}
+
+.hop-elementor-kit-layouts {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.hop-elementor-kit-layouts__item {
+    border: 2px solid #444;
+    background-color: #000000; /* Dark layout background */
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+}
+
+.hop-elementor-kit-layouts__item>img {
+    flex: 1;
+    height: 120px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.hop-elementor-kit-layouts__item__label {
+    background-color: #333;
+    color: #ffcc00; /* Golden text */
+    font-size: 11px;
+    padding: 5px 8px;
+}
+
+.hop-elementor-kit-layouts__item--active {
+    border-color: #ffcc00; /* Golden border when active */
+}
+
+.hop-elementor-kit-layouts__item--active>span {
+    color: #ffcc00;
+}
+
+.hop-elementor-kit-layouts__item__pro {
+    background: #ef4444;
+    border-radius: 3px;
+    color: #fff !important;
+    display: flex;
+    font-size: 10px;
+    padding: 4px 6px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    text-transform: uppercase;
+    z-index: 1;
+}
