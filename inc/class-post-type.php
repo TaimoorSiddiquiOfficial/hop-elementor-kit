@@ -2,7 +2,7 @@
 /**
  * Register Post Type
  *
- * @author Nhamdv <daonham95@gmail.com>
+ * @author HOP TRENDY LTD <info@hopframework.com>
  */
 
 namespace Hop_EL_Kit;

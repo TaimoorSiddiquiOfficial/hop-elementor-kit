@@ -1,42 +1,62 @@
-# Copyright (C) 2024 hopframework
-# This file is distributed under the same license as the Hop Elementor Kit plugin.
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Hop Elementor Kit 1.2.6\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hop-elementor-kit\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: Hop Elementor Kit\n"
+"POT-Creation-Date: 2024-09-29 14:16+0500\n"
+"PO-Revision-Date: 2024-09-29 14:16+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-08-21T05:02:26+03:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.8.1\n"
-"X-Domain: hop-elementor-kit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: hop-elementor-kit.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#. Plugin Name of the plugin
+#: hop-elementor-kit.php:140
+msgid "Hop Elementor Kit requires Elementor to be activated."
+msgstr ""
+
+#: hop-elementor-kit.php:142
+msgid "Activate Elementor Now"
+msgstr ""
+
+#: hop-elementor-kit.php:152
+msgid "Hop Elementor Kit requires Elementor to be installed."
+msgstr ""
+
+#: hop-elementor-kit.php:154
+msgid "Install Elementor Now"
+msgstr ""
+
+#: hop-elementor-kit.php:173
+msgid ""
+"Hop Elementor Kit Pro is merged into Hop Elementor Kit. Please deactivate "
+"Hop Elementor Kit Pro to avoid conflicts."
+msgstr ""
+
+#: hop-elementor-kit.php:177
+msgid "Deactivate Hop Elementor Kit Pro"
+msgstr ""
+
+#: hop-elementor-kit.php:191 hop-elementor-kit.php:195
+#: inc/utilities/singleton-trait.php:29
+msgid "Something went wrong."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: inc/class-dashboard.php:41 inc/class-dashboard.php:42
 #: inc/class-enqueue-scripts.php:108
 #: inc/elementor/dynamic-tags/class-init.php:53
 msgid "Hop Elementor Kit"
-msgstr ""
-
-#. Description of the plugin
-msgid "It is page builder for the Elementor page builder."
-msgstr ""
-
-#. Author of the plugin
-msgid "hopframework"
-msgstr ""
-
-#. Author URI of the plugin
-msgid "https://hopframework.com"
-msgstr ""
-
-#: inc/class-dashboard.php:41
-#: inc/class-dashboard.php:42
-#: inc/class-post-type.php:226
-#: inc/class-post-type.php:237
-msgid "Hop Elementor"
 msgstr ""
 
 #: inc/class-enqueue-scripts.php:73
@@ -47,15 +67,12 @@ msgstr ""
 msgid "&nbsp;second"
 msgstr ""
 
-#: inc/class-post-type.php:64
-#: inc/class-post-type.php:231
-#: inc/class-post-type.php:262
-#: inc/class-post-type.php:263
+#: inc/class-post-type.php:64 inc/class-post-type.php:231
+#: inc/class-post-type.php:262 inc/class-post-type.php:263
 msgid "All Templates"
 msgstr ""
 
-#: inc/class-post-type.php:96
-#: inc/elementor/class-elementor.php:366
+#: inc/class-post-type.php:96 inc/elementor/class-elementor.php:366
 #: inc/elementor/widgets/archive-course/archive-course-new.php:172
 #: inc/elementor/widgets/archive-course/archive-course.php:145
 #: inc/elementor/widgets/archive-post/archive-post.php:113
@@ -76,7 +93,6 @@ msgid "Type"
 msgstr ""
 
 #: inc/class-post-type.php:97
-#: src/components/AddNewTemplateModal.js:185
 msgid "Conditions"
 msgstr ""
 
@@ -88,18 +104,23 @@ msgstr ""
 msgid "Unsupported"
 msgstr ""
 
+#: inc/class-post-type.php:135
+msgid "EDIT CONDITIONS"
+msgstr ""
+
 #: inc/class-post-type.php:225
-#: src/admin.js:58
 msgid "Hop Elementor Templates"
 msgstr ""
 
-#: inc/class-post-type.php:227
-#: inc/modules/slider/class-post-type.php:25
+#: inc/class-post-type.php:226 inc/class-post-type.php:237
+msgid "Hop Elementor"
+msgstr ""
+
+#: inc/class-post-type.php:227 inc/modules/slider/class-post-type.php:25
 msgid "Add New"
 msgstr ""
 
-#: inc/class-post-type.php:228
-#: inc/class-post-type.php:270
+#: inc/class-post-type.php:228 inc/class-post-type.php:270
 #: inc/class-post-type.php:271
 msgid "Add New Template"
 msgstr ""
@@ -140,14 +161,11 @@ msgstr ""
 msgid "Create template successfully, Redirecting..."
 msgstr ""
 
-#: inc/class-settings.php:40
-#: inc/class-settings.php:41
+#: inc/class-settings.php:40 inc/class-settings.php:41
 #: inc/elementor/widgets/global/list-blog.php:49
 #: inc/elementor/widgets/global/login-form.php:301
 #: inc/elementor/widgets/global/video.php:156
 #: inc/modules/header-footer/class-init.php:174
-#: src/components/MegaMenuModal.js:178
-#: src/settings.js:100
 msgid "Settings"
 msgstr ""
 
@@ -178,18 +196,15 @@ msgstr ""
 msgid "Archive Post"
 msgstr ""
 
-#: inc/class-settings.php:185
-#: inc/modules/single-course/class-init.php:14
+#: inc/class-settings.php:185 inc/modules/single-course/class-init.php:14
 msgid "Single Course"
 msgstr ""
 
-#: inc/class-settings.php:186
-#: inc/modules/single-post/class-init.php:14
+#: inc/class-settings.php:186 inc/modules/single-post/class-init.php:14
 msgid "Single Post"
 msgstr ""
 
-#: inc/class-settings.php:187
-#: inc/modules/single-product/class-init.php:14
+#: inc/class-settings.php:187 inc/modules/single-product/class-init.php:14
 msgid "Single Product"
 msgstr ""
 
@@ -303,8 +318,7 @@ msgstr ""
 msgid "Count Student"
 msgstr ""
 
-#: inc/elementor/class-elementor.php:259
-#: inc/elementor/class-elementor.php:291
+#: inc/elementor/class-elementor.php:259 inc/elementor/class-elementor.php:291
 #: inc/elementor/widgets/global/course-base.php:501
 #: inc/elementor/widgets/global/course-base.php:912
 #: inc/elementor/widgets/global/course-base.php:1379
@@ -405,6 +419,10 @@ msgstr ""
 msgid "FAQs"
 msgstr ""
 
+#: inc/elementor/class-elementor.php:292
+msgid "Materials"
+msgstr ""
+
 #: inc/elementor/class-elementor.php:296
 msgid "Announcements"
 msgstr ""
@@ -472,6 +490,7 @@ msgstr ""
 #: inc/elementor/widgets/global/icon-box.php:161
 #: inc/elementor/widgets/global/icon-box.php:358
 #: inc/elementor/widgets/global/image-accordion.php:189
+#: inc/elementor/widgets/global/image-accordion.php:502
 #: inc/elementor/widgets/global/instagram.php:76
 #: inc/elementor/widgets/global/list-blog.php:82
 #: inc/elementor/widgets/global/list-course.php:83
@@ -514,8 +533,7 @@ msgstr ""
 msgid "Infinite Animation"
 msgstr ""
 
-#: inc/elementor/class-elementor.php:370
-#: inc/elementor/class-elementor.php:392
+#: inc/elementor/class-elementor.php:370 inc/elementor/class-elementor.php:392
 msgid "Select Animation"
 msgstr ""
 
@@ -663,6 +681,18 @@ msgstr ""
 msgid "Set custom animation duration in second( unit )."
 msgstr ""
 
+#: inc/elementor/class-elementor.php:466
+#: inc/elementor/widgets/global/site-logo.php:294
+#: inc/elementor/widgets/global/site-logo.php:329
+#: inc/elementor/widgets/global/testimonial.php:1160
+#: inc/elementor/widgets/global/testimonial.php:1234
+#: inc/elementor/widgets/single-course/course-image.php:217
+#: inc/elementor/widgets/single-course/course-image.php:252
+#: inc/elementor/widgets/single-post/post-image.php:229
+#: inc/elementor/widgets/single-post/post-image.php:264
+msgid "Opacity"
+msgstr ""
+
 #: inc/elementor/custom-css/class-custom-css.php:35
 #: inc/elementor/custom-css/class-custom-css.php:52
 msgid "Custom CSS"
@@ -673,7 +703,11 @@ msgid "Add your own custom CSS here"
 msgstr ""
 
 #: inc/elementor/custom-css/class-custom-css.php:63
-msgid "Use \"selector\" to target wrapper element. Examples:<br>selector {color: red;} // For main element<br>selector .child-element {margin: 10px;} // For child element<br>.my-class {text-align: center;} // Or use any custom selector"
+msgid ""
+"Use \"selector\" to target wrapper element. Examples:<br>selector {color: "
+"red;} // For main element<br>selector .child-element {margin: 10px;} // For "
+"child element<br>.my-class {text-align: center;} // Or use any custom "
+"selector"
 msgstr ""
 
 #: inc/elementor/dynamic-tags/tags/item-author.php:33
@@ -688,6 +722,7 @@ msgstr ""
 #: inc/elementor/widgets/global/blog-base.php:1354
 #: inc/elementor/widgets/global/course-base.php:1365
 #: inc/elementor/widgets/global/minicart.php:172
+#: inc/elementor/widgets/global/svg-draw.php:98
 #: inc/elementor/widgets/global/video.php:220
 #: inc/elementor/widgets/single-course-item/course-item-nav.php:397
 #: inc/elementor/widgets/single-course-item/course-item-search-form.php:128
@@ -720,6 +755,7 @@ msgstr ""
 #: inc/elementor/widgets/global/icon-box.php:432
 #: inc/elementor/widgets/global/icon-box.php:492
 #: inc/elementor/widgets/global/image-accordion.php:311
+#: inc/elementor/widgets/global/image-accordion.php:576
 #: inc/elementor/widgets/global/list-course.php:382
 #: inc/elementor/widgets/global/login-form.php:368
 #: inc/elementor/widgets/global/login-form.php:553
@@ -760,6 +796,7 @@ msgstr ""
 #: inc/elementor/widgets/single-course-item/course-item-data.php:396
 #: inc/elementor/widgets/single-course-item/course-item-data.php:446
 #: inc/elementor/widgets/single-course-item/course-item-nav.php:457
+#: inc/elementor/widgets/single-course-item/course-item-progress.php:126
 #: inc/elementor/widgets/single-course-item/course-item-search-form.php:309
 #: inc/elementor/widgets/single-course/course-featured-review.php:142
 #: inc/elementor/widgets/single-course/course-image.php:317
@@ -845,6 +882,7 @@ msgstr ""
 
 #: inc/elementor/dynamic-tags/tags/item-date.php:37
 #: inc/elementor/widgets/loop-item/loop-item-info.php:66
+#, php-format
 msgid "<a href=\"%s\">Documentation on date and time formatting.</a>"
 msgstr ""
 
@@ -907,6 +945,7 @@ msgstr ""
 #: inc/elementor/widgets/global/login-form.php:78
 #: inc/elementor/widgets/global/login-form.php:108
 #: inc/elementor/widgets/global/login-form.php:232
+#: inc/elementor/widgets/loop-item/loop-product-stock.php:102
 #: inc/elementor/widgets/single-course/course-rating.php:118
 msgid "Off"
 msgstr ""
@@ -918,6 +957,7 @@ msgstr ""
 #: inc/elementor/widgets/global/login-form.php:79
 #: inc/elementor/widgets/global/login-form.php:109
 #: inc/elementor/widgets/global/login-form.php:233
+#: inc/elementor/widgets/loop-item/loop-product-stock.php:101
 #: inc/elementor/widgets/single-course/course-rating.php:117
 msgid "On"
 msgstr ""
@@ -950,6 +990,90 @@ msgstr ""
 
 #: inc/elementor/motion-effects/class-init.php:101
 msgid "3D Tilt"
+msgstr ""
+
+#: inc/elementor/templates/api.php:22
+msgid "Hop Library"
+msgstr ""
+
+#: inc/elementor/templates/api.php:166
+msgid "Template does not have any content"
+msgstr ""
+
+#: inc/elementor/templates/import.php:30
+msgid "Post not found"
+msgstr ""
+
+#: inc/elementor/templates/import.php:36
+msgid "Template id missing"
+msgstr ""
+
+#: inc/elementor/templates/init.php:38
+msgid "No Templates Found"
+msgstr ""
+
+#: inc/elementor/templates/init.php:39
+msgid "Try different category or sync for new templates."
+msgstr ""
+
+#: inc/elementor/templates/init.php:40
+msgid "No Results Found"
+msgstr ""
+
+#: inc/elementor/templates/init.php:41
+msgid ""
+"Please make sure your search is spelled correctly or try a different words."
+msgstr ""
+
+#: inc/elementor/templates/load.php:41
+msgid "Post not found."
+msgstr ""
+
+#: inc/elementor/templates/views/template-library-badge.php:4
+msgid "Search Templates:"
+msgstr ""
+
+#: inc/elementor/templates/views/template-library-badge.php:5
+#: inc/elementor/widgets/archive-course/archive-course-new.php:319
+#: inc/elementor/widgets/archive-course/archive-course.php:292
+#: inc/elementor/widgets/global/search-form.php:135
+#: inc/elementor/widgets/single-course-item/course-item-search-form.php:85
+#: inc/elementor/widgets/single-course-item/course-item-search-form.php:526
+#: inc/elementor/widgets/single-course-item/course-item-search-form.php:532
+msgid "Search"
+msgstr ""
+
+#: inc/elementor/templates/views/template-library-badge.php:15
+msgid "Filter"
+msgstr ""
+
+#: inc/elementor/templates/views/template-library-button.php:5
+msgid "Insert"
+msgstr ""
+
+#: inc/elementor/templates/views/template-library-button.php:12
+msgid "Go Pro"
+msgstr ""
+
+#: inc/elementor/templates/views/template-library-header.php:11
+msgid "Back to Library"
+msgstr ""
+
+#: inc/elementor/templates/views/template-library-header.php:26
+#: inc/elementor/templates/views/template-library-header.php:27
+msgid "Sync Library"
+msgstr ""
+
+#: inc/elementor/templates/views/template-library-loader.php:11
+msgid "Loading"
+msgstr ""
+
+#: inc/elementor/templates/views/template-library-preview.php:9
+msgid "Live Preview"
+msgstr ""
+
+#: inc/elementor/templates/views/template-library-toolbar.php:8
+msgid "Pro"
 msgstr ""
 
 #: inc/elementor/widgets/archive-course/archive-course-new.php:89
@@ -1133,6 +1257,7 @@ msgstr ""
 #: inc/elementor/widgets/global/site-logo.php:88
 #: inc/elementor/widgets/global/social-share.php:135
 #: inc/elementor/widgets/global/social.php:138
+#: inc/elementor/widgets/global/svg-draw.php:73
 #: inc/elementor/widgets/global/tab.php:92
 #: inc/elementor/widgets/global/tab.php:122
 #: inc/elementor/widgets/global/team.php:426
@@ -1216,6 +1341,7 @@ msgstr ""
 #: inc/elementor/widgets/global/site-logo.php:92
 #: inc/elementor/widgets/global/social-share.php:139
 #: inc/elementor/widgets/global/social.php:142
+#: inc/elementor/widgets/global/svg-draw.php:77
 #: inc/elementor/widgets/global/tab.php:71
 #: inc/elementor/widgets/global/team.php:430
 #: inc/elementor/widgets/global/team.php:973
@@ -1307,6 +1433,7 @@ msgstr ""
 #: inc/elementor/widgets/global/site-logo.php:100
 #: inc/elementor/widgets/global/social-share.php:147
 #: inc/elementor/widgets/global/social.php:150
+#: inc/elementor/widgets/global/svg-draw.php:85
 #: inc/elementor/widgets/global/tab.php:75
 #: inc/elementor/widgets/global/team.php:438
 #: inc/elementor/widgets/global/team.php:981
@@ -1521,15 +1648,6 @@ msgstr ""
 msgid "Color"
 msgstr ""
 
-#: inc/elementor/widgets/archive-course/archive-course-new.php:319
-#: inc/elementor/widgets/archive-course/archive-course.php:292
-#: inc/elementor/widgets/global/search-form.php:135
-#: inc/elementor/widgets/single-course-item/course-item-search-form.php:85
-#: inc/elementor/widgets/single-course-item/course-item-search-form.php:526
-#: inc/elementor/widgets/single-course-item/course-item-search-form.php:532
-msgid "Search"
-msgstr ""
-
 #: inc/elementor/widgets/archive-course/archive-course-new.php:364
 #: inc/elementor/widgets/archive-course/archive-course.php:337
 #: inc/elementor/widgets/global/button.php:468
@@ -1577,6 +1695,7 @@ msgstr ""
 #: inc/elementor/widgets/global/header-info.php:301
 #: inc/elementor/widgets/global/icon-box.php:390
 #: inc/elementor/widgets/global/icon-box.php:625
+#: inc/elementor/widgets/global/image-accordion.php:534
 #: inc/elementor/widgets/global/list-course.php:297
 #: inc/elementor/widgets/global/login-form.php:565
 #: inc/elementor/widgets/global/login-form.php:758
@@ -1729,6 +1848,8 @@ msgstr ""
 #: inc/elementor/widgets/global/course-base.php:1817
 #: inc/elementor/widgets/global/icon-box.php:642
 #: inc/elementor/widgets/global/icon-box.php:673
+#: inc/elementor/widgets/global/image-accordion.php:551
+#: inc/elementor/widgets/global/image-accordion.php:611
 #: inc/elementor/widgets/global/login-form.php:591
 #: inc/elementor/widgets/global/login-form.php:633
 #: inc/elementor/widgets/global/login-form.php:784
@@ -1795,6 +1916,7 @@ msgstr ""
 #: inc/elementor/widgets/global/header-info.php:325
 #: inc/elementor/widgets/global/icon-box.php:451
 #: inc/elementor/widgets/global/icon-box.php:657
+#: inc/elementor/widgets/global/image-accordion.php:595
 #: inc/elementor/widgets/global/login-form.php:797
 #: inc/elementor/widgets/global/login-popup.php:401
 #: inc/elementor/widgets/global/minicart.php:295
@@ -1873,6 +1995,7 @@ msgstr ""
 #: inc/elementor/widgets/global/heading.php:397
 #: inc/elementor/widgets/global/heading.php:571
 #: inc/elementor/widgets/global/heading.php:615
+#: inc/elementor/widgets/global/image-accordion.php:491
 #: inc/elementor/widgets/global/list-course.php:395
 #: inc/elementor/widgets/global/login-form.php:434
 #: inc/elementor/widgets/global/login-form.php:482
@@ -1933,6 +2056,8 @@ msgstr ""
 #: inc/elementor/widgets/global/header-info.php:261
 #: inc/elementor/widgets/global/icon-box.php:421
 #: inc/elementor/widgets/global/icon-box.php:482
+#: inc/elementor/widgets/global/image-accordion.php:565
+#: inc/elementor/widgets/global/image-accordion.php:624
 #: inc/elementor/widgets/global/list-course.php:315
 #: inc/elementor/widgets/global/list-course.php:357
 #: inc/elementor/widgets/global/login-form.php:317
@@ -2054,6 +2179,7 @@ msgstr ""
 #: inc/elementor/widgets/global/header-info.php:423
 #: inc/elementor/widgets/global/icon-box.php:591
 #: inc/elementor/widgets/global/image-accordion.php:367
+#: inc/elementor/widgets/global/image-accordion.php:478
 #: inc/elementor/widgets/global/list-course.php:272
 #: inc/elementor/widgets/global/login-form.php:349
 #: inc/elementor/widgets/global/login-form.php:533
@@ -2132,6 +2258,10 @@ msgstr ""
 msgid "No courses found"
 msgstr ""
 
+#: inc/elementor/widgets/archive-course/archive-course-new.php:911
+msgid "View More"
+msgstr ""
+
 #: inc/elementor/widgets/archive-course/archive-course-new.php:1076
 #: inc/elementor/widgets/archive-course/archive-course.php:948
 #: inc/elementor/widgets/archive-post/archive-post.php:416
@@ -2150,10 +2280,12 @@ msgid "Showing only one result"
 msgstr ""
 
 #: inc/elementor/widgets/archive-course/archive-course.php:819
+#, php-format
 msgid "Showing last course of %s results"
 msgstr ""
 
 #: inc/elementor/widgets/archive-course/archive-course.php:823
+#, php-format
 msgid "Showing %1$s of %2$s results"
 msgstr ""
 
@@ -2231,10 +2363,12 @@ msgid "There are no available post!"
 msgstr ""
 
 #: inc/elementor/widgets/archive-post/archive-post.php:317
+#, php-format
 msgid "Showing last post of %s results"
 msgstr ""
 
 #: inc/elementor/widgets/archive-post/archive-post.php:322
+#, php-format
 msgid "Showing %s - %s of %s results"
 msgstr ""
 
@@ -2289,6 +2423,7 @@ msgstr ""
 #: inc/elementor/widgets/single-course-item/back-to-course.php:38
 #: inc/elementor/widgets/single-course-item/course-item-data.php:110
 #: inc/elementor/widgets/single-course-item/course-item-nav.php:39
+#: inc/elementor/widgets/single-course-item/course-item-progress.php:40
 #: inc/elementor/widgets/single-course-item/course-item-search-form.php:41
 #: inc/elementor/widgets/single-course-item/course-item-section.php:61
 #: inc/elementor/widgets/single-course/course-category.php:39
@@ -2367,7 +2502,10 @@ msgstr ""
 
 #: inc/elementor/widgets/global/accordion.php:61
 #: inc/elementor/widgets/global/tab.php:182
-msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula lacus nibh, quis egestas ex tincidunt eu. Nunc et sem luctus, ultricies orci sit amet, gravida dui."
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula lacus "
+"nibh, quis egestas ex tincidunt eu. Nunc et sem luctus, ultricies orci sit "
+"amet, gravida dui."
 msgstr ""
 
 #: inc/elementor/widgets/global/accordion.php:72
@@ -2384,15 +2522,19 @@ msgstr ""
 
 #: inc/elementor/widgets/global/accordion.php:84
 #: inc/elementor/widgets/global/back-to-top.php:51
+#: inc/elementor/widgets/global/button.php:93
 #: inc/elementor/widgets/global/header-info.php:53
 #: inc/elementor/widgets/global/header-info.php:286
 #: inc/elementor/widgets/global/icon-box.php:149
 #: inc/elementor/widgets/global/icon-box.php:169
 #: inc/elementor/widgets/global/icon-box.php:287
 #: inc/elementor/widgets/global/minicart.php:79
+#: inc/elementor/widgets/global/search-form.php:664
 #: inc/elementor/widgets/global/social-share.php:52
 #: inc/elementor/widgets/global/social.php:56
 #: inc/elementor/widgets/global/social.php:176
+#: inc/elementor/widgets/global/svg-draw.php:46
+#: inc/elementor/widgets/global/svg-draw.php:52
 #: inc/elementor/widgets/global/tab.php:170
 #: inc/elementor/widgets/global/video.php:60
 #: inc/elementor/widgets/global/video.php:202
@@ -2414,13 +2556,16 @@ msgstr ""
 #: inc/elementor/widgets/single-course/course-tabs.php:80
 #: inc/elementor/widgets/single-post/post-info.php:415
 #: inc/utilities/group-control-trait.php:1226
-#: src/components/MegaMenuModal.js:176
 msgid "Icon"
 msgstr ""
 
 #: inc/elementor/widgets/global/accordion.php:111
 #: inc/elementor/widgets/single-course/course-extra.php:126
 msgid "Active Icon"
+msgstr ""
+
+#: inc/elementor/widgets/global/accordion.php:139
+msgid "FAQ Schema"
 msgstr ""
 
 #: inc/elementor/widgets/global/accordion.php:158
@@ -2469,6 +2614,7 @@ msgstr ""
 #: inc/elementor/widgets/single-course/course-tabs.php:696
 #: inc/elementor/widgets/single-course/course-tabs.php:765
 #: inc/elementor/widgets/single-course/course-tabs.php:1179
+#: inc/elementor/widgets/single-post/post-info.php:511
 #: inc/utilities/group-control-trait.php:987
 #: inc/utilities/group-control-trait.php:1036
 msgid "Border"
@@ -2477,6 +2623,7 @@ msgstr ""
 #: inc/elementor/widgets/global/accordion.php:226
 #: inc/elementor/widgets/global/blog-base.php:745
 #: inc/elementor/widgets/global/button.php:163
+#: inc/elementor/widgets/global/course-base.php:1652
 #: inc/elementor/widgets/global/dark-mode.php:91
 #: inc/elementor/widgets/global/header-info.php:350
 #: inc/elementor/widgets/global/heading.php:275
@@ -2566,6 +2713,8 @@ msgstr ""
 #: inc/elementor/widgets/global/heading.php:404
 #: inc/elementor/widgets/global/heading.php:578
 #: inc/elementor/widgets/global/heading.php:622
+#: inc/elementor/widgets/global/image-accordion.php:540
+#: inc/elementor/widgets/global/image-accordion.php:601
 #: inc/elementor/widgets/global/list-course.php:303
 #: inc/elementor/widgets/global/list-course.php:345
 #: inc/elementor/widgets/global/login-popup.php:335
@@ -2715,6 +2864,7 @@ msgstr ""
 #: inc/elementor/widgets/global/site-logo.php:96
 #: inc/elementor/widgets/global/social-share.php:143
 #: inc/elementor/widgets/global/social.php:146
+#: inc/elementor/widgets/global/svg-draw.php:81
 #: inc/elementor/widgets/global/tab.php:100
 #: inc/elementor/widgets/global/tab.php:130
 #: inc/elementor/widgets/global/team.php:434
@@ -2943,6 +3093,8 @@ msgstr ""
 #: inc/elementor/widgets/global/course-base.php:1612
 #: inc/elementor/widgets/global/icon-box.php:559
 #: inc/elementor/widgets/global/icon-box.php:573
+#: inc/elementor/widgets/global/image-accordion.php:222
+#: inc/elementor/widgets/global/image-accordion.php:470
 msgid "Read More"
 msgstr ""
 
@@ -3151,7 +3303,6 @@ msgstr ""
 #: inc/elementor/widgets/single-post/post-related.php:65
 #: inc/elementor/widgets/single-product/product-related.php:57
 #: inc/utilities/group-control-trait.php:454
-#: src/components/AddNewTemplateModal.js:23
 msgid "Default"
 msgstr ""
 
@@ -3190,6 +3341,7 @@ msgstr ""
 #: inc/elementor/widgets/global/course-base.php:328
 #: inc/elementor/widgets/global/course-base.php:1712
 #: inc/elementor/widgets/global/icon-box.php:359
+#: inc/elementor/widgets/global/image-accordion.php:503
 #: inc/elementor/widgets/global/login-popup.php:298
 #: inc/elementor/widgets/global/minicart.php:225
 #: inc/elementor/widgets/global/minicart.php:1399
@@ -3213,6 +3365,7 @@ msgstr ""
 #: inc/elementor/widgets/global/course-base.php:329
 #: inc/elementor/widgets/global/course-base.php:1713
 #: inc/elementor/widgets/global/icon-box.php:360
+#: inc/elementor/widgets/global/image-accordion.php:504
 #: inc/elementor/widgets/global/login-popup.php:299
 #: inc/elementor/widgets/global/minicart.php:226
 #: inc/elementor/widgets/global/minicart.php:1400
@@ -3236,6 +3389,7 @@ msgstr ""
 #: inc/elementor/widgets/global/course-base.php:330
 #: inc/elementor/widgets/global/course-base.php:1714
 #: inc/elementor/widgets/global/icon-box.php:361
+#: inc/elementor/widgets/global/image-accordion.php:505
 #: inc/elementor/widgets/global/login-popup.php:300
 #: inc/elementor/widgets/global/minicart.php:227
 #: inc/elementor/widgets/global/minicart.php:1401
@@ -3259,6 +3413,7 @@ msgstr ""
 #: inc/elementor/widgets/global/course-base.php:331
 #: inc/elementor/widgets/global/course-base.php:1715
 #: inc/elementor/widgets/global/icon-box.php:362
+#: inc/elementor/widgets/global/image-accordion.php:506
 #: inc/elementor/widgets/global/login-popup.php:301
 #: inc/elementor/widgets/global/minicart.php:228
 #: inc/elementor/widgets/global/minicart.php:1402
@@ -3282,6 +3437,7 @@ msgstr ""
 #: inc/elementor/widgets/global/course-base.php:332
 #: inc/elementor/widgets/global/course-base.php:1716
 #: inc/elementor/widgets/global/icon-box.php:363
+#: inc/elementor/widgets/global/image-accordion.php:507
 #: inc/elementor/widgets/global/login-popup.php:302
 #: inc/elementor/widgets/global/minicart.php:229
 #: inc/elementor/widgets/global/minicart.php:1403
@@ -3305,6 +3461,7 @@ msgstr ""
 #: inc/elementor/widgets/global/course-base.php:349
 #: inc/elementor/widgets/global/course-base.php:1727
 #: inc/elementor/widgets/global/icon-box.php:375
+#: inc/elementor/widgets/global/image-accordion.php:519
 #: inc/elementor/widgets/global/login-popup.php:314
 #: inc/elementor/widgets/global/minicart.php:241
 #: inc/elementor/widgets/global/minicart.php:1415
@@ -3485,6 +3642,7 @@ msgstr ""
 #: inc/elementor/widgets/global/contact-form-7.php:380
 #: inc/elementor/widgets/global/course-base.php:1708
 #: inc/elementor/widgets/global/icon-box.php:355
+#: inc/elementor/widgets/global/image-accordion.php:499
 #: inc/elementor/widgets/global/login-popup.php:294
 #: inc/elementor/widgets/global/minicart.php:221
 #: inc/elementor/widgets/global/minicart.php:1395
@@ -3540,27 +3698,33 @@ msgid "Error 404"
 msgstr ""
 
 #: inc/elementor/widgets/global/breadcrumb.php:442
+#, php-format
 msgid "Course tagged &ldquo;%s&rdquo;"
 msgstr ""
 
 #. translators: %s: product tag
 #: inc/elementor/widgets/global/breadcrumb.php:481
+#, php-format
 msgid "Products tagged &ldquo;%s&rdquo;"
 msgstr ""
 
 #: inc/elementor/widgets/global/breadcrumb.php:524
+#, php-format
 msgid "Posts tagged &ldquo;%s&rdquo;"
 msgstr ""
 
 #: inc/elementor/widgets/global/breadcrumb.php:558
+#, php-format
 msgid "Author: %s"
 msgstr ""
 
 #: inc/elementor/widgets/global/breadcrumb.php:576
+#, php-format
 msgid "Search results for &ldquo;%s&rdquo;"
 msgstr ""
 
 #: inc/elementor/widgets/global/breadcrumb.php:583
+#, php-format
 msgid "Page %d"
 msgstr ""
 
@@ -3617,6 +3781,7 @@ msgstr ""
 #: inc/elementor/widgets/global/nav-menu.php:88
 #: inc/elementor/widgets/global/site-logo.php:113
 #: inc/elementor/widgets/global/social.php:586
+#: inc/elementor/widgets/global/svg-draw.php:63
 #: inc/elementor/widgets/global/testimonial.php:199
 #: inc/elementor/widgets/single-post/author-box.php:90
 #: inc/elementor/widgets/single-post/author-box.php:105
@@ -3636,6 +3801,43 @@ msgstr ""
 #: inc/elementor/widgets/global/team.php:246
 #: inc/elementor/widgets/single-post/author-box.php:107
 msgid "https://your-link.com"
+msgstr ""
+
+#: inc/elementor/widgets/global/button.php:102
+#: inc/elementor/widgets/global/course-base.php:1621
+#: inc/elementor/widgets/global/social-share.php:63
+#: inc/elementor/widgets/global/social.php:66
+#: inc/elementor/widgets/global/tab.php:61
+#: inc/utilities/group-control-trait.php:1240
+msgid "Icon Position"
+msgstr ""
+
+#: inc/elementor/widgets/global/button.php:106
+#: inc/elementor/widgets/global/course-base.php:1625
+#: inc/elementor/widgets/global/social-share.php:67
+#: inc/elementor/widgets/global/social.php:70
+#: inc/elementor/widgets/loop-item/loop-item-info.php:77
+#: inc/elementor/widgets/single-post/post-info.php:200
+#: inc/utilities/group-control-trait.php:1244
+msgid "Before"
+msgstr ""
+
+#: inc/elementor/widgets/global/button.php:107
+#: inc/elementor/widgets/global/course-base.php:1626
+#: inc/elementor/widgets/global/social-share.php:68
+#: inc/elementor/widgets/global/social.php:71
+#: inc/elementor/widgets/single-post/post-info.php:226
+#: inc/utilities/group-control-trait.php:1245
+msgid "After"
+msgstr ""
+
+#: inc/elementor/widgets/global/button.php:116
+#: inc/elementor/widgets/global/course-base.php:1637
+#: inc/elementor/widgets/global/header-info.php:369
+#: inc/elementor/widgets/single-course/course-meta.php:405
+#: inc/elementor/widgets/single-course/course-offer-end.php:155
+#: inc/utilities/group-control-trait.php:1257
+msgid "Icon Spacing"
 msgstr ""
 
 #: inc/elementor/widgets/global/button.php:146
@@ -3920,18 +4122,21 @@ msgid "Sale"
 msgstr ""
 
 #: inc/elementor/widgets/global/course-base.php:2156
+#, php-format
 msgid "%d lesson"
 msgid_plural "%d lessons"
 msgstr[0] ""
 msgstr[1] ""
 
 #: inc/elementor/widgets/global/course-base.php:2181
+#, php-format
 msgid "%d quiz"
 msgid_plural "%d quizzes"
 msgstr[0] ""
 msgstr[1] ""
 
 #: inc/elementor/widgets/global/course-base.php:2206
+#, php-format
 msgid "%d student"
 msgid_plural "%d students"
 msgstr[0] ""
@@ -4000,6 +4205,14 @@ msgstr ""
 msgid "Text Size"
 msgstr ""
 
+#: inc/elementor/widgets/global/dark-mode.php:167
+msgid "Light"
+msgstr ""
+
+#: inc/elementor/widgets/global/dark-mode.php:213
+msgid "Dark"
+msgstr ""
+
 #: inc/elementor/widgets/global/header-info.php:17
 #: inc/elementor/widgets/global/header-info.php:97
 #: inc/elementor/widgets/global/header-info.php:114
@@ -4012,7 +4225,9 @@ msgstr ""
 
 #: inc/elementor/widgets/global/header-info.php:71
 #: inc/elementor/widgets/global/heading.php:47
-msgid "\"Focused Title\" Settings will be worked, If you use this {{something}} format"
+msgid ""
+"\"Focused Title\" Settings will be worked, If you use this {{something}} "
+"format"
 msgstr ""
 
 #: inc/elementor/widgets/global/header-info.php:83
@@ -4045,13 +4260,6 @@ msgstr ""
 #: inc/elementor/widgets/global/testimonial.php:947
 #: inc/elementor/widgets/single-course/course-meta.php:274
 msgid "Inline"
-msgstr ""
-
-#: inc/elementor/widgets/global/header-info.php:369
-#: inc/elementor/widgets/single-course/course-meta.php:405
-#: inc/elementor/widgets/single-course/course-offer-end.php:155
-#: inc/utilities/group-control-trait.php:1257
-msgid "Icon Spacing"
 msgstr ""
 
 #: inc/elementor/widgets/global/header-info.php:396
@@ -4131,7 +4339,9 @@ msgid "Show Description"
 msgstr ""
 
 #: inc/elementor/widgets/global/heading.php:177
-msgid "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise "
+msgid ""
+"A small river named Duden flows by their place and supplies it with the "
+"necessary regelialia. It is a paradise "
 msgstr ""
 
 #: inc/elementor/widgets/global/heading.php:189
@@ -4190,7 +4400,6 @@ msgstr ""
 #: inc/elementor/widgets/single-product/product-image.php:39
 #: inc/elementor/widgets/single-product/product-tabs.php:39
 #: inc/elementor/widgets/single-product/product-tabs.php:99
-#: src/components/MegaMenuModal.js:175
 msgid "General"
 msgstr ""
 
@@ -4383,6 +4592,10 @@ msgstr ""
 
 #: inc/elementor/widgets/global/image-accordion.php:191
 msgid "Button Read More"
+msgstr ""
+
+#: inc/elementor/widgets/global/image-accordion.php:216
+msgid "Button Label"
 msgstr ""
 
 #: inc/elementor/widgets/global/image-accordion.php:235
@@ -4579,7 +4792,9 @@ msgstr ""
 #: inc/elementor/widgets/global/list-course.php:466
 #: inc/elementor/widgets/global/list-course.php:574
 #: inc/elementor/widgets/global/list-product.php:340
-msgid "No data were found matching your selection, you need to create Post or select Category of Widget."
+msgid ""
+"No data were found matching your selection, you need to create Post or "
+"select Category of Widget."
 msgstr ""
 
 #: inc/elementor/widgets/global/list-course.php:26
@@ -4631,7 +4846,8 @@ msgstr ""
 #: inc/elementor/widgets/global/login-form.php:91
 #: inc/elementor/widgets/global/login-form.php:120
 #: inc/elementor/widgets/global/login-form.php:242
-msgid "Note: Because of security reasons, you can ONLY use your current domain here."
+msgid ""
+"Note: Because of security reasons, you can ONLY use your current domain here."
 msgstr ""
 
 #: inc/elementor/widgets/global/login-form.php:105
@@ -4729,6 +4945,7 @@ msgid "Button Submit"
 msgstr ""
 
 #: inc/elementor/widgets/global/login-form.php:847
+#, php-format
 msgid "You are Logged in as %1$s (<a href=\"%2$s\">Logout</a>)"
 msgstr ""
 
@@ -4741,6 +4958,7 @@ msgid "Check your email to get a link to create a new password."
 msgstr ""
 
 #: inc/elementor/widgets/global/login-form.php:870
+#, php-format
 msgid "Password changed. You can <a href=\"%s\">login</a> now."
 msgstr ""
 
@@ -4791,7 +5009,9 @@ msgid "Get Your Password"
 msgstr ""
 
 #: inc/elementor/widgets/global/login-form.php:1086
-msgid "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
 msgstr ""
 
 #: inc/elementor/widgets/global/login-form.php:1099
@@ -4811,7 +5031,10 @@ msgid "Reset Password"
 msgstr ""
 
 #: inc/elementor/widgets/global/login-form.php:1146
-msgid "Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! \" ? $ % ^ &amp; )."
+msgid ""
+"Hint: The password should be at least twelve characters long. To make it "
+"stronger, use upper and lower case letters, numbers, and symbols like ! \" ? "
+"$ % ^ &amp; )."
 msgstr ""
 
 #: inc/elementor/widgets/global/login-popup.php:17
@@ -5071,7 +5294,6 @@ msgid "Empty Cart Message Color"
 msgstr ""
 
 #: inc/elementor/widgets/global/minicart.php:1779
-#: src/components/MegaMenuModal.js:426
 msgid "Close"
 msgstr ""
 
@@ -5218,6 +5440,7 @@ msgid "404 Page"
 msgstr ""
 
 #: inc/elementor/widgets/global/page-title.php:169
+#, php-format
 msgid "Search Results for: %s"
 msgstr ""
 
@@ -5428,17 +5651,6 @@ msgstr ""
 msgid "Contain"
 msgstr ""
 
-#: inc/elementor/widgets/global/site-logo.php:294
-#: inc/elementor/widgets/global/site-logo.php:329
-#: inc/elementor/widgets/global/testimonial.php:1160
-#: inc/elementor/widgets/global/testimonial.php:1234
-#: inc/elementor/widgets/single-course/course-image.php:217
-#: inc/elementor/widgets/single-course/course-image.php:252
-#: inc/elementor/widgets/single-post/post-image.php:229
-#: inc/elementor/widgets/single-post/post-image.php:264
-msgid "Opacity"
-msgstr ""
-
 #: inc/elementor/widgets/global/social-share.php:17
 msgid "Social Share"
 msgstr ""
@@ -5456,28 +5668,6 @@ msgstr ""
 
 #: inc/elementor/widgets/global/social-share.php:54
 msgid "Icon & Both"
-msgstr ""
-
-#: inc/elementor/widgets/global/social-share.php:63
-#: inc/elementor/widgets/global/social.php:66
-#: inc/elementor/widgets/global/tab.php:61
-#: inc/utilities/group-control-trait.php:1240
-msgid "Icon Position"
-msgstr ""
-
-#: inc/elementor/widgets/global/social-share.php:67
-#: inc/elementor/widgets/global/social.php:70
-#: inc/elementor/widgets/loop-item/loop-item-info.php:77
-#: inc/elementor/widgets/single-post/post-info.php:200
-#: inc/utilities/group-control-trait.php:1244
-msgid "Before"
-msgstr ""
-
-#: inc/elementor/widgets/global/social-share.php:68
-#: inc/elementor/widgets/global/social.php:71
-#: inc/elementor/widgets/single-post/post-info.php:226
-#: inc/utilities/group-control-trait.php:1245
-msgid "After"
 msgstr ""
 
 #: inc/elementor/widgets/global/social-share.php:79
@@ -5603,6 +5793,10 @@ msgstr ""
 
 #: inc/elementor/widgets/global/svg-draw.php:20
 msgid "Icon SVG Draw"
+msgstr ""
+
+#: inc/elementor/widgets/global/svg-draw.php:118
+msgid "Rotate"
 msgstr ""
 
 #: inc/elementor/widgets/global/tab.php:42
@@ -5817,6 +6011,11 @@ msgstr ""
 msgid "Member Rating"
 msgstr ""
 
+#: inc/elementor/widgets/global/team.php:1013
+msgctxt "hop-elementor-kit"
+msgid "Absolute"
+msgstr ""
+
 #: inc/elementor/widgets/global/team.php:1024
 #: inc/elementor/widgets/global/team.php:1250
 #: inc/utilities/group-control-trait.php:302
@@ -6026,6 +6225,7 @@ msgid "Video Width"
 msgstr ""
 
 #: inc/elementor/widgets/global/video.php:74
+#, no-php-format
 msgid "Enter the width of a video. For example, 100% or 60px."
 msgstr ""
 
@@ -6034,6 +6234,7 @@ msgid "Video Height"
 msgstr ""
 
 #: inc/elementor/widgets/global/video.php:84
+#, no-php-format
 msgid "Enter the height of a video. For example, 100% or 60px."
 msgstr ""
 
@@ -6050,7 +6251,9 @@ msgid "Vimeo Video ID"
 msgstr ""
 
 #: inc/elementor/widgets/global/video.php:108
-msgid "Enter the Vimeo video ID. For example, if the link video is https://player.vimeo.com/video/61389324 then the video ID is 61389324"
+msgid ""
+"Enter the Vimeo video ID. For example, if the link video is https://player."
+"vimeo.com/video/61389324 then the video ID is 61389324"
 msgstr ""
 
 #: inc/elementor/widgets/global/video.php:122
@@ -6058,7 +6261,9 @@ msgid "Youtube Video ID"
 msgstr ""
 
 #: inc/elementor/widgets/global/video.php:123
-msgid "Enter Youtube video ID . Example if link video https://www.youtube.com/watch?v=orl1nVy4I6s then video ID is orl1nVy4I6s "
+msgid ""
+"Enter Youtube video ID . Example if link video https://www.youtube.com/watch?"
+"v=orl1nVy4I6s then video ID is orl1nVy4I6s "
 msgstr ""
 
 #: inc/elementor/widgets/global/video.php:312
@@ -6175,6 +6380,7 @@ msgid "Number Color"
 msgstr ""
 
 #: inc/elementor/widgets/loop-item/loop-product-ratting.php:184
+#, php-format
 msgid "%s review"
 msgid_plural "%s reviews"
 msgstr[0] ""
@@ -6189,6 +6395,7 @@ msgid "Percentage"
 msgstr ""
 
 #: inc/elementor/widgets/loop-item/loop-product-sale.php:122
+#, php-format
 msgctxt "sale percentage"
 msgid "-%d%%"
 msgstr ""
@@ -6205,6 +6412,7 @@ msgstr ""
 msgid "Out of stock Color"
 msgstr ""
 
+#: inc/elementor/widgets/loop-item/loop-product-stock.php:93
 #: inc/elementor/widgets/loop-item/loop-product-stock.php:111
 #: inc/elementor/widgets/single-course-item/course-item-progress.php:64
 #: inc/elementor/widgets/single-post/reading-time-post.php:143
@@ -6212,8 +6420,16 @@ msgstr ""
 msgid "Progress"
 msgstr ""
 
+#: inc/elementor/widgets/loop-item/loop-product-stock.php:99
+msgid "Show Progress"
+msgstr ""
+
 #: inc/elementor/widgets/single-course-item/back-to-course.php:19
 msgid "Back To Course"
+msgstr ""
+
+#: inc/elementor/widgets/single-course-item/back-to-course.php:80
+msgid "Hide Title?"
 msgstr ""
 
 #: inc/elementor/widgets/single-course-item/back-to-course.php:112
@@ -6439,6 +6655,7 @@ msgid "Expire Time"
 msgstr ""
 
 #: inc/elementor/widgets/single-course-item/course-item-progress.php:56
+#: inc/elementor/widgets/single-course-item/course-item-progress.php:85
 msgid "Progress Bar"
 msgstr ""
 
@@ -6456,6 +6673,11 @@ msgstr ""
 
 #: inc/elementor/widgets/single-course-item/course-item-progress.php:406
 msgid "% Complete"
+msgstr ""
+
+#: inc/elementor/widgets/single-course-item/course-item-progress.php:418
+#, php-format
+msgid "<span class=\"items-completed\">%1$s</span> of %2$d items"
 msgstr ""
 
 #: inc/elementor/widgets/single-course-item/course-item-progress.php:454
@@ -6810,6 +7032,20 @@ msgstr ""
 msgid "One Star"
 msgstr ""
 
+#: inc/elementor/widgets/single-course/course-rating.php:330
+#, php-format
+msgid "/%d rating"
+msgid_plural "/%d ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/elementor/widgets/single-course/course-rating.php:349
+#, php-format
+msgid "(<span>%d</span> rating)"
+msgid_plural "(<span>%d</span> ratings)"
+msgstr[0] ""
+msgstr[1] ""
+
 #: inc/elementor/widgets/single-course/course-related.php:24
 msgid " Course Related"
 msgstr ""
@@ -6932,6 +7168,7 @@ msgid "Use for Assignment add-on"
 msgstr ""
 
 #: inc/elementor/widgets/single-course/course-user-progress.php:190
+#, php-format
 msgid "Failed %1$d, Passed %2$d"
 msgstr ""
 
@@ -6988,6 +7225,7 @@ msgstr ""
 #: inc/elementor/widgets/single-course/course-user-time.php:116
 #: inc/elementor/widgets/single-post/post-info.php:93
 #: inc/elementor/widgets/single-post/post-info.php:176
+#, php-format
 msgid "Use the letters: %s"
 msgstr ""
 
@@ -7209,6 +7447,10 @@ msgstr ""
 msgid "Vertical Position (px)"
 msgstr ""
 
+#: inc/elementor/widgets/single-product/product-image.php:602
+msgid "Awaiting product image"
+msgstr ""
+
 #: inc/elementor/widgets/single-product/product-meta.php:20
 msgid "Product Meta"
 msgstr ""
@@ -7234,6 +7476,10 @@ msgstr ""
 
 #: inc/elementor/widgets/single-product/product-notices.php:20
 msgid "Product Notices"
+msgstr ""
+
+#: inc/elementor/widgets/single-product/product-notices.php:101
+msgid "This is an example of a WooCommerce notice"
 msgstr ""
 
 #: inc/elementor/widgets/single-product/product-related.php:28
@@ -7267,6 +7513,10 @@ msgstr ""
 #: inc/elementor/widgets/single-product/product-related.php:274
 #: inc/elementor/widgets/single-product/product-upsell.php:159
 msgid "Text Align"
+msgstr ""
+
+#: inc/elementor/widgets/single-product/product-related.php:364
+msgid "Related products"
 msgstr ""
 
 #: inc/elementor/widgets/single-product/product-short-description.php:20
@@ -7410,7 +7660,6 @@ msgid "Sticky Header"
 msgstr ""
 
 #: inc/modules/header-footer/class-init.php:198
-#: src/components/AddNewTemplateModal.js:165
 msgid "Enable sticky"
 msgstr ""
 
@@ -7419,7 +7668,9 @@ msgid "Loop Item"
 msgstr ""
 
 #: inc/modules/loop-item/class-init.php:285
-msgid "Please enable <b>Flexbox Container</b> in Elementor > Settings > Features: %s"
+#, php-format
+msgid ""
+"Please enable <b>Flexbox Container</b> in Elementor > Settings > Features: %s"
 msgstr ""
 
 #: inc/modules/loop-item/class-init.php:287
@@ -7427,7 +7678,7 @@ msgstr ""
 msgid "Go to Settings"
 msgstr ""
 
-#: inc/modules/mega-menu/class-init.php:205
+#: inc/modules/mega-menu/class-init.php:216
 msgid "Hop Menu Settings"
 msgstr ""
 
@@ -7474,7 +7725,6 @@ msgid "Cannot insert mega menu"
 msgstr ""
 
 #: inc/modules/mega-menu/class-rest-api.php:251
-#: src/settings.js:69
 msgid "Cannot save settings"
 msgstr ""
 
@@ -7507,7 +7757,9 @@ msgid "All H5P"
 msgstr ""
 
 #: inc/modules/single-course-item/class-init.php:200
-msgid "Please enable <b>Nested Elements</b> in Elementor > Settings > Features: %s"
+#, php-format
+msgid ""
+"Please enable <b>Nested Elements</b> in Elementor > Settings > Features: %s"
 msgstr ""
 
 #: inc/modules/single-course/class-init.php:120
@@ -7540,6 +7792,22 @@ msgstr ""
 
 #: inc/modules/single-post/class-init.php:122
 msgid "Select tag"
+msgstr ""
+
+#: inc/modules/single-product/class-init.php:189
+msgid "All products"
+msgstr ""
+
+#: inc/modules/single-product/class-init.php:194
+msgid "Select product"
+msgstr ""
+
+#: inc/modules/single-product/class-init.php:199
+msgid "Product category"
+msgstr ""
+
+#: inc/modules/single-product/class-init.php:204
+msgid "Product tag"
 msgstr ""
 
 #: inc/modules/slider/class-post-type.php:23
@@ -7628,7 +7896,8 @@ msgstr ""
 msgid "No Sliders found"
 msgstr ""
 
-#: inc/modules/slider/class-post-type.php:101
+#: inc/modules/slider/class-post-type.php:103
+#, php-format
 msgid "All %s"
 msgstr ""
 
@@ -7770,7 +8039,8 @@ msgid "Drawing Start Point"
 msgstr ""
 
 #: inc/utilities/group-control-trait.php:1984
-msgid "The point at which the drawing begins to animate as scrolls down (in pixels)."
+msgid ""
+"The point at which the drawing begins to animate as scrolls down (in pixels)."
 msgstr ""
 
 #: inc/utilities/group-control-trait.php:1992
@@ -7813,327 +8083,14 @@ msgstr ""
 msgid "Invalid request."
 msgstr ""
 
-#: inc/utilities/singleton-trait.php:29
-#: hop-elementor-kit.php:186
-#: hop-elementor-kit.php:190
-msgid "Something went wrong."
+#. Description of the plugin/theme
+msgid "It is page builder for the Elementor page builder."
 msgstr ""
 
-#: hop-elementor-kit.php:135
-msgid "Hop Elementor Kit requires Elementor to be activated."
+#. Author of the plugin/theme
+msgid "HopFramework"
 msgstr ""
 
-#: hop-elementor-kit.php:137
-msgid "Activate Elementor Now"
-msgstr ""
-
-#: hop-elementor-kit.php:147
-msgid "Hop Elementor Kit requires Elementor to be installed."
-msgstr ""
-
-#: hop-elementor-kit.php:149
-msgid "Install Elementor Now"
-msgstr ""
-
-#: hop-elementor-kit.php:168
-msgid "Hop Elementor Kit Pro is merged into Hop Elementor Kit. Please deactivate Hop Elementor Kit Pro to avoid conflicts."
-msgstr ""
-
-#: hop-elementor-kit.php:172
-msgid "Deactivate Hop Elementor Kit Pro"
-msgstr ""
-
-#: src/admin.js:65
-msgid "Add new"
-msgstr ""
-
-#: src/admin.js:75
-msgid "Contact us"
-msgstr ""
-
-#: src/components/AddNewTemplateModal.js:138
-msgid "Add new template"
-msgstr ""
-
-#: src/components/AddNewTemplateModal.js:147
-msgid "Select the type"
-msgstr ""
-
-#: src/components/AddNewTemplateModal.js:157
-msgid "Template name"
-msgstr ""
-
-#: src/components/AddNewTemplateModal.js:158
-msgid "Enter template name…"
-msgstr ""
-
-#: src/components/AddNewTemplateModal.js:173
-msgid "Select post type"
-msgstr ""
-
-#: src/components/AddNewTemplateModal.js:197
-msgid "Select Layouts"
-msgstr ""
-
-#: src/components/AddNewTemplateModal.js:220
-msgid "Pro"
-msgstr ""
-
-#: src/components/AddNewTemplateModal.js:249
-msgid "Create template"
-msgstr ""
-
-#: src/components/AddNewTemplateModal.js:256
-msgid "No data available"
-msgstr ""
-
-#: src/components/EditConditions.js:46
-msgid "Something went wrong!"
-msgstr ""
-
-#: src/components/icon/fontawesome.js:103
-msgid "Search for FontAwesome…"
-msgstr ""
-
-#: src/components/icon/index.js:14
-msgid "Select Icons"
-msgstr ""
-
-#: src/components/icon/index.js:33
-msgid "SELECT"
-msgstr ""
-
-#: src/components/icon/index.js:33
-msgid "CLOSE"
-msgstr ""
-
-#: src/components/MegaMenuIframe.js:45
-#: src/components/MegaMenuIframe.js:53
-msgid "Hop Elementor Editor"
-msgstr ""
-
-#: src/components/MegaMenuIframe.js:59
-msgid "Can't view Editor"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:144
-msgid "Error when saving"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:164
-msgid "Hop Mega Menu Settings"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:177
-msgid "Badge"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:194
-#: src/components/MegaMenuSettings.js:67
-msgid "Enable Mega Menu"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:208
-msgid "Edit with Elementor"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:219
-msgid "Enable Menu Icon"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:227
-msgid "Icon type"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:230
-msgid "Icons"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:231
-#: src/components/MegaMenuModal.js:284
-msgid "Upload"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:241
-msgid "Icon color"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:247
-msgid "Icon size"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:248
-#: src/components/MegaMenuModal.js:348
-msgid "Enter the font size…"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:284
-msgid "Replace"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:294
-msgid "Remove"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:303
-msgid "Icon width"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:308
-msgid "Icon height"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:324
-msgid "Enable Menu Badge"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:332
-msgid "Badge text"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:337
-msgid "Badge color"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:342
-msgid "Badge background color"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:347
-msgid "Badge size"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:362
-msgid "Mega menu content width"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:363
-msgid "Set the width of the mega menu content. Example: 1140px, 100vw…"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:369
-msgid "Mega menu align type"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:373
-msgid "Align with Screen"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:377
-msgid "Align with Container"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:384
-msgid "Mega menu position"
-msgstr ""
-
-#: src/components/MegaMenuModal.js:417
-#: src/components/MegaMenuSettings.js:78
-msgid "Save"
-msgstr ""
-
-#: src/dashboard.js:11
-msgid "Documentation"
-msgstr ""
-
-#: src/dashboard.js:12
-#: src/dashboard.js:20
-#: src/dashboard.js:28
-msgid "Hop Elementor Templates is a collection of Elementor Templates for your website. You can use these templates to build your website quickly and easily."
-msgstr ""
-
-#: src/dashboard.js:14
-#: src/dashboard.js:22
-#: src/dashboard.js:30
-msgid "Get Started"
-msgstr ""
-
-#: src/dashboard.js:19
-msgid "Video Tutorials"
-msgstr ""
-
-#: src/dashboard.js:27
-msgid "Help Center"
-msgstr ""
-
-#: src/dashboard.js:78
-msgid "Changelog"
-msgstr ""
-
-#: src/library.js:277
-msgid "Delete All Content"
-msgstr ""
-
-#: src/library.js:278
-msgid "Attention: We are going to DELETE ALL CONTENT from this page. Are you sure you want to do that?"
-msgstr ""
-
-#: src/library.js:284
-msgid "Delete"
-msgstr ""
-
-#: src/library.js:285
-#: src/library.js:318
-msgid "Cancel"
-msgstr ""
-
-#: src/library.js:310
-msgid "Import Hop Library"
-msgstr ""
-
-#: src/library.js:311
-msgid "Something went wrong. Please try again."
-msgstr ""
-
-#: src/library.js:317
-msgid "OK"
-msgstr ""
-
-#: src/menu.js:29
-msgid "Hop Mega Menu"
-msgstr ""
-
-#: src/settings.js:73
-msgid "Settings saved"
-msgstr ""
-
-#: src/settings.js:82
-msgid "Hop Elementor Kit Settings"
-msgstr ""
-
-#: src/settings.js:90
-msgid "Widgets"
-msgstr ""
-
-#: src/settings.js:95
-msgid "Modules"
-msgstr ""
-
-#: src/settings.js:126
-msgid "Save Changes"
-msgstr ""
-
-#: src/settings/advanced.js:43
-msgid "Enable Dark Mode"
-msgstr ""
-
-#: src/settings/modules.js:39
-#: src/settings/modules.js:43
-msgid "Mega menu"
-msgstr ""
-
-#: src/settings/modules.js:54
-msgid "Header & Footer"
-msgstr ""
-
-#: src/settings/modules.js:59
-msgid "Header Builder"
-msgstr ""
-
-#: src/settings/modules.js:69
-msgid "Footer Builder"
-msgstr ""
-
-#: src/settings/widgets.js:64
-msgid "Disable/Enable All Widgets"
+#. Author URI of the plugin/theme
+msgid "https://hopframework.com"
 msgstr ""

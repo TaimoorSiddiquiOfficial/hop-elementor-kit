@@ -5,6 +5,15 @@ use \Elementor\TemplateLibrary\Source_Base;
 use \Elementor\Plugin;
 
 if ( ! defined( 'ABSPATH' ) ) {exit;}
+	// Ensure Elementor is loaded
+	if ( ! did_action( 'elementor/loaded' ) ) {
+		add_action( 'admin_notices', function() {
+			echo '<div class="notice notice-error"><p>' . esc_html__( 'Elementor is not activated. Please activate Elementor to use the Hop Elementor Kit.', 'hop-elementor-kit' ) . '</p></div>';
+		});
+		return;
+	}
+
+
 
 class Api extends Source_Base {
 	
@@ -176,5 +185,6 @@ class Api extends Source_Base {
 		}
 		return $data;
 	}
+
 
 }

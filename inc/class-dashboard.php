@@ -38,8 +38,8 @@ class Dashboard {
 
 	public function admin_menu() {
 		add_menu_page(
-			esc_html__( 'Hop Elementor', 'hop-elementor-kit' ),
-			esc_html__( 'Hop Elementor', 'hop-elementor-kit' ),
+			esc_html__( 'Hop Elementor Kit', 'hop-elementor-kit' ),
+			esc_html__( 'Hop Elementor Kit', 'hop-elementor-kit' ),
 			'manage_options',
 			self::MENU_SLUG,
 			function () {

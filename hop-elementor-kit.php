@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Hop Elementor Kit
  * Description: It is page builder for the Elementor page builder.
- * Author: hopframework
+ * Author: HopFramework
  * Version: 1.2.6
  * Author URI: https://hopframework.com
  * Requires at least: 6.3
@@ -32,13 +32,17 @@ define( 'HOP_EKIT_DEV', false );
 /**
  * Class Hop Elementor Kits Plugin
  *
- * @author Nhamdv from hopframework <daonham95@gmail.com>
+ * @author HOP TRENDY LTD from HOPFRAMEWORK <info@hopframework.com>
  */
 if ( ! class_exists( 'Hop_EL_Kit' ) ) {
 	final class Hop_EL_Kit {
 		protected static $instance = null;
 
+	
+
+
 		public function __construct() {
+			$this->initialize_update_checker();
 			add_action( 'plugins_loaded', array( $this, 'load_textdomain' ), 99 );
 
 			if ( ! $this->elementor_is_active() ) {
@@ -56,11 +60,27 @@ if ( ! class_exists( 'Hop_EL_Kit' ) ) {
 			do_action( 'hop_ekit_loaded' );
 		}
 
+
+        protected function initialize_update_checker() {
+            
+			if ( class_exists( 'Puc_v4_Factory' ) ) {
+				$updateChecker = Puc_v4_Factory::buildUpdateChecker(
+					'https://assets.hopframework.com/assets/hopelementor/metadata.json',
+					__FILE__,
+					'hop-elementor-kit'
+				);
+			}
+			
+        }
+		
+
+
 		protected function includes() {
 			// Utilities
 			require_once HOP_EKIT_PLUGIN_PATH . 'inc/utilities/singleton-trait.php';
 			require_once HOP_EKIT_PLUGIN_PATH . 'inc/utilities/class-response.php';
 			require_once HOP_EKIT_PLUGIN_PATH . 'inc/utilities/class-elementor.php';
+			require HOP_EKIT_PLUGIN_PATH . 'inc/plugin-update-checker/plugin-update-checker.php';
 			// Group Add Control
 			require_once HOP_EKIT_PLUGIN_PATH . 'inc/utilities/group-control-trait.php';
 			require_once HOP_EKIT_PLUGIN_PATH . 'inc/utilities/login-register-trait.php';
@@ -197,10 +217,10 @@ if ( ! class_exists( 'Hop_EL_Kit' ) ) {
 	}
 }
 
-include( __DIR__ . '\inc\elementor\templates\import.php');
-include( __DIR__ . '\inc\elementor\templates\init.php');
-include( __DIR__ . '\inc\elementor\templates\load.php');
-include( __DIR__ . '\inc\elementor\templates\api.php');
+include( __DIR__ . '/inc/elementor/templates/import.php');
+include( __DIR__ . '/inc/elementor/templates/init.php');
+include( __DIR__ . '/inc/elementor/templates/load.php');
+include( __DIR__ . '/inc/elementor/templates/api.php');
 
 \Hop_EL_Kit\Templates\Import::instance()->load();
 \Hop_EL_Kit\Templates\Load::instance()->load();
@@ -216,6 +236,7 @@ register_activation_hook(
 		Hop_EL_Kit::instance()->register_activation_hook();
 	}
 );
+
 
 // If Multilsite.
 // if ( function_exists( 'is_multisite' ) && is_multisite() ) {

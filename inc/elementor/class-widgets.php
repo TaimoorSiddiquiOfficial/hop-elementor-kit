@@ -23,7 +23,7 @@ class Widgets {
 			'nav-menu',
 			'site-logo',
 			'product-base',
-			// 'course-base', // Delete because it error in ajax. Need include in once when use in widget - Nhamdv.
+			// 'course-base', // Delete because it error in ajax. Need include in once when use in widget - HOP TRENDY LTD.
 			'header-info',
 			'social',
 			'social-share',

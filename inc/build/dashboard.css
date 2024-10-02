@@ -1,10 +1,10 @@
 .hop-ekit-dashboard {
-    margin: 40px; /* Increased margin for more space */
+    margin: 20px; /* Increased margin for more space */
     background-color: #151515; /* Darker background for a sleeker feel */
     color: #f5f5f5; /* Softer white for text to reduce strain */
     font-family: 'Poppins', 'Segoe UI', Tahoma, sans-serif; /* Trendy, clean font */
     font-size: 16px; /* Increased base font size for readability */
-    width: 90%;
+    width: 95%;
 }
 
 .hop-ekit-dashboard__banner img {
@@ -105,7 +105,7 @@
 .hop-ekit-dashboard__changelog__inner {
     max-height: 450px;
     overflow-y: auto;
-    background-color: #000000; /* Slightly softer dark background */
+    background-color: #ffffff; /* Slightly softer dark background */
     color: #f38a00;
     padding: 25px;
     border-radius: 12px;
